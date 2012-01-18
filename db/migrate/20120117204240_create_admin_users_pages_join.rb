@@ -9,5 +9,5 @@ class CreateAdminUsersPagesJoin < ActiveRecord::Migration
 
   def down
     drop_table :admin_users_pages  
-    end
+  end
 end
